@@ -1,0 +1,68 @@
+<!--index.html-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,
+        Inidial-scale=1.0">
+    <title>
+        lorem inpum generator
+    </title>
+    <link rel="stylesheet" href="stle.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>lorem insum generator</h1>
+    </header>
+    <main>
+        <div class="options">
+
+        </div class="paragraphs">
+        <label for="paragraphs">paragraphs</label>
+        <input type="range" id="paragraphs" min="1" max="50" value="1">
+        <span id="paragraphsvalue"></span>
+        </div>
+        <div class="words">
+            <label for="words"> words per paragraphs </label>
+            <input type="range" id="words" min="1" max="100" value="10">
+            <span id="wordsvalue">10</span>
+        </div>
+
+        <div class="tags">
+            <label for="tags">tag</label>
+            <select id="tags">
+            <option value="yes">yes</option>
+            <option value="no">no</option>
+        </select>
+        </div>
+        <div class="include">
+            <label for="include">include thml:</label>
+            <select id="include">
+                <option value="yes">yes</option>
+                <option value="no">no</option>
+            </select>
+        </div>
+        <button id="generator">
+            generator Lorem ipsum 
+        </button>
+        <div class="output">
+            <!--lorem tnpus test will be
+            displayed here-->
+        </div>
+        <div class="preference"> <label for="cheese">do you like cheese</label>
+            <input type="checkbox" name="chese" id="chese">
+        
+        </div>
+        <div class="preference"> <label for="peas"> do you like peas</label>
+            <input type="checkbox" name="peas" id="peas">
+        </div>
+
+    </main>
+    <script src="script. js"> </script>
+
+</body>
+
+</html>
